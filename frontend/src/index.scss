@@ -1,0 +1,25 @@
+$color4: #1a3365;
+$color1: #ffbb00;
+$color2: #fff;
+$color3: #ff4343;
+
+body {
+  margin: 0;
+  font-family: Fira-Code, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  background-color: $color4;
+  padding: 1rem;
+  color: $color1;
+
+  a {
+    color: $color1;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
