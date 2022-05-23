@@ -23,3 +23,43 @@ header {
     font-weight: bold;
   }
 }
+
+main {
+  padding: 2rem;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .product {
+    margin: 1rem;
+    border: 1px solid $color4;
+    border-radius: 10px;
+
+    img {
+      width: 100%;
+      max-width: 250px;
+    }
+    .product-info {
+      padding: 0.3rem;
+      color: $color4;
+
+      button {
+        padding: 0.5rem 2rem;
+        border: 0;
+        background-color: $color1;
+        color: $color4;
+        border-radius: 10px;
+        transition: 0.3s ease all;
+        &:hover {
+          padding: 0.5rem 2.5rem;
+          border: 0;
+          background-color: $color1;
+          color: $color4;
+        }
+      }
+    }
+  }
+}

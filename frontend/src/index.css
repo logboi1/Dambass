@@ -16,4 +16,52 @@ header a {
   text-decoration: none;
   font-weight: bold;
 }
+
+main {
+  padding: 2rem;
+}
+
+.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.products .product {
+  margin: 1rem;
+  border: 1px solid #1a3365;
+  border-radius: 10px;
+}
+
+.products .product img {
+  width: 100%;
+  max-width: 250px;
+}
+
+.products .product .product-info {
+  padding: 0.3rem;
+  color: #1a3365;
+}
+
+.products .product .product-info button {
+  padding: 0.5rem 2rem;
+  border: 0;
+  background-color: #ffbb00;
+  color: #1a3365;
+  border-radius: 10px;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+}
+
+.products .product .product-info button:hover {
+  padding: 0.5rem 2.5rem;
+  border: 0;
+  background-color: #ffbb00;
+  color: #1a3365;
+}
 /*# sourceMappingURL=index.css.map */
